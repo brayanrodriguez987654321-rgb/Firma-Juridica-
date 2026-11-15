@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#151d31">
+  <meta name="description" content="MSc. William Paguay C. — Asesoría y servicios jurídicos. Defendemos tus derechos.">
+  <title>MSc. William Paguay C. | Firma Jurídica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topline"><div class="container topline-inner"><span>Firma jurídica · Asesoría y patrocinio legal</span><span>Atención profesional y confidencial</span></div></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio"><img src="assets/logo-william-paguay.png" alt="Logotipo MSc. William Paguay C."><span><b>MSc. William <em>Paguay C.</em></b><small>Defendemos tus derechos</small></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      <nav class="main-nav" id="mainNav">
+        <a href="#inicio" data-link="inicio">Inicio</a>
+        <a href="#firma" data-link="firma">La firma</a>
+        <a href="#areas" data-link="areas">Áreas legales</a>
+        <a href="#servicios" data-link="servicios">Servicios</a>
+        <a href="#contacto" data-link="contacto">Contacto</a>
+      </nav>
+      <div class="header-actions">
+        <a class="login-link" href="#login">Iniciar sesión</a>
+        <a class="btn btn-gold btn-small" href="#agendar">Agendar consulta</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand"><img src="assets/logo-william-paguay.png" alt=""><div><b>MSc. William <em>Paguay C.</em></b><span>Defendemos tus derechos</span></div></div>
+      <div><h3>Explora</h3><a href="#firma">La firma</a><a href="#areas">Áreas legales</a><a href="#servicios">Servicios</a></div>
+      <div><h3>Atención</h3><a href="#agendar">Agendar consulta</a><a href="#contacto">Contacto</a><a href="#login">Portal de clientes</a></div>
+      <div><h3>Información</h3><p>La información de este sitio es de carácter general y no reemplaza una asesoría jurídica personalizada.</p></div>
+    </div>
+    <div class="container copyright">© <span id="year"></span> MSc. William Paguay C. · Todos los derechos reservados.</div>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
